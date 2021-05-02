@@ -25,7 +25,7 @@ public class AltaUsuario {
 	/**
 	 * Realiza el alta de un usuario que se pasa como parámetro
 	 * @param usuario json con el usuario a dar de alta
-	 * @return retorna códido http
+	 * @return retorna códido http o algo mas
 	 * @throws JsonProcessingException 
 	 */
 	@ApiOperation(value = "Alta de usuario",
